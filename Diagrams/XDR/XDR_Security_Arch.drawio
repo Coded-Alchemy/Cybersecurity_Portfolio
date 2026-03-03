@@ -1,0 +1,87 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="aCptPi3dBgS04pvzmKf_">
+    <mxGraphModel dx="1015" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-33" edge="1" parent="1" source="fl2xxz8JBXYA4Ts9sRSv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="EndPoints" vertex="1">
+          <mxGeometry height="560" width="200" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-5" parent="fl2xxz8JBXYA4Ts9sRSv-1" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_office_building;pointerEvents=1" value="Ofice Networks" vertex="1">
+          <mxGeometry height="71" width="100" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-8" parent="fl2xxz8JBXYA4Ts9sRSv-1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" value="Cloud Environment" vertex="1">
+          <mxGeometry height="31.5" width="50" x="75" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-9" parent="fl2xxz8JBXYA4Ts9sRSv-1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" value="Email Server" vertex="1">
+          <mxGeometry height="80" width="80" x="60" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-13" parent="fl2xxz8JBXYA4Ts9sRSv-1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" value="Firewall" vertex="1">
+          <mxGeometry height="80" width="80" x="60" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-35" edge="1" parent="1" source="fl2xxz8JBXYA4Ts9sRSv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="fl2xxz8JBXYA4Ts9sRSv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="XDR" vertex="1">
+          <mxGeometry height="420" width="260" x="280" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-15" parent="fl2xxz8JBXYA4Ts9sRSv-14" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;fillColorStyles=fillColor2,fillColor3,fillColor4;fillColor2=#032d60;fillColor3=#0d9dda;fillColor4=#ffffff;fillColor=none;strokeColor=none;" value="Data Collection" vertex="1">
+          <mxGeometry height="67.04" width="54.3" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-17" parent="fl2xxz8JBXYA4Ts9sRSv-14" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.magnifying_glass;pointerEvents=1;" value="Corelation &amp;amp;&lt;div&gt;Analysis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.4" width="55.2" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-19" parent="fl2xxz8JBXYA4Ts9sRSv-14" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.magnifying_glass;pointerEvents=1;" value="Threat Detection" vertex="1">
+          <mxGeometry height="54.4" width="55.2" x="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-20" parent="fl2xxz8JBXYA4Ts9sRSv-14" style="image;html=1;image=img/lib/clip_art/computers/Monitor_128x128.png" value="Dashboard /&amp;nbsp;&lt;div&gt;Centrilzed Visibility&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="90" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-22" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;XDR Architecture&lt;/h1&gt;&lt;div&gt;This is a depection of a security incedent moving through the XDR archetecture of a medium sized business. The end to end flow begins with a threat detected on an endpoint. An agent sends log data to be stored and analysed by the XDR platform. An investigation is initiated, the threat gets remediated, and a report is documented covering the entire process.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="360" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-23" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Threat Detected" vertex="1">
+          <mxGeometry height="80" width="140" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-24" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="XDR Platform&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22shape%3Dstep%3Bperimeter%3DstepPerimeter%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfixedSize%3D1%3B%22%20value%3D%22Threat%20Detected%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2280%22%20width%3D%22140%22%20x%3D%2270%22%20y%3D%22160%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-25" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Resolution" vertex="1">
+          <mxGeometry height="80" width="140" x="670" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-26" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Investigation &amp;amp; Response" vertex="1">
+          <mxGeometry height="80" width="190" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-45" edge="1" parent="1" source="fl2xxz8JBXYA4Ts9sRSv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fl2xxz8JBXYA4Ts9sRSv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-29" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Security Team" vertex="1">
+          <mxGeometry height="280" width="230" x="580" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-30" parent="fl2xxz8JBXYA4Ts9sRSv-29" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Notification.svg;" value="Alert&lt;div&gt;Monitoring&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="30" y="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-40" parent="fl2xxz8JBXYA4Ts9sRSv-29" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;" value="Automated&lt;div&gt;Response&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="50" x="90" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-41" parent="fl2xxz8JBXYA4Ts9sRSv-29" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.magnifying_glass;pointerEvents=1;" value="Incedent&lt;div&gt;Investigation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.4" width="55.2" x="130" y="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-42" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Threat Neutralized" vertex="1">
+          <mxGeometry height="200" width="200" x="595" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-43" parent="fl2xxz8JBXYA4Ts9sRSv-42" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=shield;fillColor=#FAFAFA;strokeColor=#005073;" value="Incedent&lt;div&gt;Remediated&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="64" x="20" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2xxz8JBXYA4Ts9sRSv-46" parent="fl2xxz8JBXYA4Ts9sRSv-42" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.report;" value="Report &amp;amp;&lt;div&gt;Analysis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="49.5" width="40.2" x="130" y="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
