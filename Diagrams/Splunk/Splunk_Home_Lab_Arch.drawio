@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="sMk0-tjStSKq9myT611R">
+    <mxGraphModel dx="1015" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1FlP70bID_xt9rPdZC70-5" edge="1" parent="1" source="21MyHDPAOzJ5Ts-HJhYl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FlP70bID_xt9rPdZC70-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FlP70bID_xt9rPdZC70-6" edge="1" parent="1" source="21MyHDPAOzJ5Ts-HJhYl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FlP70bID_xt9rPdZC70-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="Deployment Server" vertex="1">
+          <mxGeometry height="50" width="28.000000000000004" x="411" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Lab Splunk Environment Architecture&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="322" x="38" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1FlP70bID_xt9rPdZC70-4" edge="1" parent="1" source="21MyHDPAOzJ5Ts-HJhYl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="21MyHDPAOzJ5Ts-HJhYl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-4" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" value="Indexer /&amp;nbsp;&lt;div&gt;Search Head&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62.400000000000006" width="62.400000000000006" x="394" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1FlP70bID_xt9rPdZC70-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Lunux Server Class" vertex="1">
+          <mxGeometry height="240" width="270" x="60" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-5" parent="1FlP70bID_xt9rPdZC70-1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" value="Oracle&amp;nbsp;&lt;div&gt;Linux&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="50" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-6" parent="1FlP70bID_xt9rPdZC70-1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" value="kali&lt;div&gt;Linux&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="50" x="114" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-9" parent="1FlP70bID_xt9rPdZC70-1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" value="Metasploitable&lt;div&gt;2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="50" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-8" parent="1FlP70bID_xt9rPdZC70-1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" value="Kali&lt;div&gt;Purple&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="50" x="114" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1FlP70bID_xt9rPdZC70-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Windows Server Class" vertex="1">
+          <mxGeometry height="200" width="200" x="520" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="21MyHDPAOzJ5Ts-HJhYl-7" parent="1FlP70bID_xt9rPdZC70-2" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;" value="Windows&lt;div&gt;11&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="50" x="20" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
